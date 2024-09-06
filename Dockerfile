@@ -29,7 +29,7 @@ RUN /vcpkg/vcpkg install asio
 ENV CMAKE_TOOLCHAIN_FILE=/vcpkg/scripts/buildsystems/vcpkg.cmake
 
 # Clone the repository
-RUN git clone https://github.com/raufkhalilov/TextDoc-Access-Manager-.git /app
+RUN git clone hhttps://github.com/shnepsel/TextDoc-Access-Manager-.git.git /app
 WORKDIR /app
 
 # Build the project
