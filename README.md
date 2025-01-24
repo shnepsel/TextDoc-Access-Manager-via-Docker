@@ -43,7 +43,7 @@ docker run scelle/textdoc-access-manager
 ./client
 ```
 
-## Requirements
+## Requirements for manual installation
 
 - **C++17** or higher
 - **CMake 3.10** or higher
