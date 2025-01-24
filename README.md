@@ -1,7 +1,5 @@
 # TextDoc Access Manager
 
-https://hub.docker.com/repository/docker/scelle/textdoc-access-manager/
-
 TextDoc Access Manager is a simple C++ client-server application that I developed to allow users to manage access to text documents. The application supports user registration, login, and management of user credentials, all handled over a network using the Asio library.
 
 ## Features
@@ -10,13 +8,48 @@ TextDoc Access Manager is a simple C++ client-server application that I develope
 - **Cross-Platform Support**: Compatible with Linux, Windows and macOS.
 - **Multithreaded Server**: Handles multiple client connections concurrently.
 
+## Requirements for installation using Docker
+
+- **Docker**
+
+## Installation using Docker
+
+### 1. Install Dependencies
+
+#### Clone the Repository
+
+```bash
+git clone https://github.com/raufkhalilov/TextDoc-Access-Manager.git
+cd TextDoc-Access-Manager
+```
+
+#### Pull image
+
+```bash
+docker pull scelle/textdoc-access-manager
+```
+
+### 2. Run the Application
+
+#### Run the Server
+
+```bash
+docker run scelle/textdoc-access-manager
+```
+
+#### Run the Client
+
+```bash
+./client
+```
+
 ## Requirements
 
 - **C++17** or higher
 - **CMake 3.10** or higher
 - **Asio library**
 
-## Installation(for Linux)
+## Manual installation (for Linux)
 
 ### 1. Install Dependencies
 
